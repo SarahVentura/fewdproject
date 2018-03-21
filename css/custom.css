@@ -1,14 +1,27 @@
+/* Type Selectors ----------------*/
+
 h1 {
-  font-size: 50px;
+  font-size: 60px;
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
+}
+body {
+
 }
 
 p {
   font-family: sans-serif;
-
 }
 
+/* Class Selectors ----------------- */
+
+.main-header {
+  background-color: gold;
+  padding-top: 150px;
+  height: 400px;
+  background-image: url('../img/antiquelouisvillemap.jpg');
+  background-size: cover;
+}
 .waterfront {
   width: 300px;
   height: auto;
@@ -17,15 +30,54 @@ p {
   display: block;
   border-radius: 50%;
 }
-
-.heading {
-  background: steelblue;
-  padding: 60px;
-  margin: 20px auto;
-  box-shadow: 10px 5px 5px;
+.info-title {
+  text-decoration: underline;
 }
 
-.item {
+.primary-content {
 
 
+}
+
+.page-links {
+  margin: 0px 175px;
+}
+
+.footer {
+  text-align: center;
+  padding-bottom: 25px;
+  background: #3acec2;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+/* Pseudo-classes---------------- */
+a:link {
+  color: maroon;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  color: lightcoral;
+  text-decoration: none;
+}
+
+a:active {
+  color: lightcoral;
+}
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+  .wrapper {
+  min-height: calc(100vh - 89px);  
+  }
 }
