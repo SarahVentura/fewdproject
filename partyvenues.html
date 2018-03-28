@@ -14,19 +14,77 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="topnav">
-        <a href="#home">Home</a>
-        <a class="active" href="#party-venues">Party Venues</a>
-        <a href="#upcoming-events">Upcoming Events</a>
-        <a href="#restaurants">Restaurants</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Menu</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="index.html">Home</a>
+          <a class="active" href="partyvenues.html">Party Venues</a>
+          <a href="#upcoming-events">Upcoming Events</a>
+          <a href="#restaurants">Restaurants</a>
+        </div>
       </div>
+      <header class="intro">
+        <h1 class="venue-header">Birthday Party Venues</h1>
+        <p>Planning a birthday party can be hard, and expensive! Below, I have
+          compiled information on different party venues in the Louisville area
+          in order to make your life a little easier.</p>
+      </header>
+      <section class="container">
+        <a href="https://www.mygym.com/louisville/?force=1"><h2>My Gym</h2></a>
+        <ul>
+          <li>Party packages starting at $240 for up to 20 children.</li>
+          <li>Privacy!- Party reservations are for the whole
+          venue so you won't have to share the space with other people.</li>
+          <li>Paper goods (plates and napkins) and plasticware are provided
+          by the facility.</li>
+          <li>Plus so much more! Visit the <a href="https://www.mygym.com/louisville/birthday-parties/284">website</a> for more information.</li>
+        </ul>
+        <div id="map" style="width:50%;height:170px;margin-left:auto;">My Gym Location</div>
+      </section>
+      <section class="container">
+        <a href="https://www.skyzone.com/louisville"><h2>Skyzone</h2></a>
+        <ul>
+          <li>Party Packages start at $15 per child.</li>
+          <li>All parties receive one hour of jump time and 40 minutes in a private
+          party room along with pizza and unlimited soft drinks.</li>
+          <li>Paper goods (plates and napkins) and plasticware are provided
+          by the facility.</li>
+          <li>Plus so much more! Visit the <a href="https://www.skyzone.com/louisville/parties-and-events/parties">website</a> for more information.</li>
+        </ul>
+        <div id="skymap" style="width:50%;height:170px;margin:auto;">Skyzone Location</div>
+      </section>
+      <section class="container">
+        <a href="https://www.mygym.com/louisville/?force=1"><h2>My Gym</h2></a>
+        <ul>
+          <li>Party packages starting at $240 for up to 20 children.</li>
+          <li>Privacy!- Party reservations are for the whole
+          venue so you won't have to share the space with other people.</li>
+          <li>Paper goods (plates and napkins) and plasticware are provided
+          by the facility.</li>
+          <li>Plus so much more! Visit the <a href="https://www.mygym.com/louisville/birthday-parties/284">website</a> for more information.</li>
+        </ul>
+        <div id="map" style="width:50%;height:150px;">My Gym Location</div>
+      </section>
+      <section class="container">
+        <a href="https://www.mygym.com/louisville/?force=1"><h2>My Gym</h2></a>
+        <ul>
+          <li>Party packages starting at $240 for up to 20 children.</li>
+          <li>Privacy!- Party reservations are for the whole
+          venue so you won't have to share the space with other people.</li>
+          <li>Paper goods (plates and napkins) and plasticware are provided
+          by the facility.</li>
+          <li>Plus so much more! Visit the <a href="https://www.mygym.com/louisville/birthday-parties/284">website</a> for more information.</li>
+        </ul>
+        <div id="map" style="width:50%;height:150px;">My Gym Location</div>
+      </section>
       <footer class="footer">
         <a href="http://twitter.com/"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
         <a href="http://facebook.com/"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
         <p> &copy; 2018 Sarah Ventura.</p>
       </footer>
-      <script src="/js/app.js"></script>
+      <script src="js/app.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbhybuS_S3oL808tQLN0AXSyqPasYhA9E&callback=myMap"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbhybuS_S3oL808tQLN0AXSyqPasYhA9E&callback=skyMap"></script>
     </div>
   </body>
 </html>
