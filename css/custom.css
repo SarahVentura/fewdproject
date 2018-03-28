@@ -6,6 +6,11 @@ h1 {
   margin: auto;
   font-family: 'Source Sans Pro', sans-serif;
 }
+
+button {
+  text-align: right;
+}
+
 html, body {
   height: 100%;
 }
@@ -19,6 +24,8 @@ p {
 /* Class Selectors ----------------- */
 
 .navbar {
+  background-color: darkorange;
+  width: 100%;
 }
 
 .dropbtn {
@@ -32,8 +39,9 @@ p {
 
 .dropdown {
   position: relative;
-  display: inline-block;
+  display: block;
   float: right;
+  text-align: right;
 }
 
 .dropdown-content {
@@ -168,6 +176,15 @@ a:active {
 }
 
 @media (min-width: 769px) {
+  header,
+  footer {
+    margin: auto;
+    max-width: 100%;
+  }
+  section {
+    margin: auto;
+    max-width: 70%;
+  }
   .wrapper {
   min-height: calc(100vh - 89px);
   }
