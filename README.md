@@ -10,13 +10,16 @@ I created a site that helps families living in Louisville, KY find fun things to
 
 ## Custom CSS Classes
 ```
-The class(es) I created are:
+Some of the class(es) I created are:
 
-1. class name ex( .main-info-section )
-.. what class does, ex( adds padding & changes background color of .main-info-section )
+1. .waterfront
+  It centers the picture of my husband and daughter at the waterfront and makes it a circle instead of a square.
 
-2.
+2. .maps
+  It center the map's I put on my page.
 
+3. .main-header
+  I created a header on my main page that had a map of Louisville in the background and then applied a colored gradient on top of it that faded from dark orange to transparent.
 ```
 
 
@@ -25,7 +28,11 @@ The class(es) I created are:
 ```
 The javascript functions I created are:
 
-1. function name ex( animate() )
-.. what function does ex( animate() is used to move the elements in the info div across the screen)
+1. myFunction
+  It shows a dropdown menu when you click on the "Menu" button at the top-right of partyvenues.html.
+
+2. myMap & myMarker
+  These two functions place a map on my partyvenues.html page, using a google maps API key, and overlay a marker
+  which pinpoints the exact location of the business I am referring to. I also animated the marker so it bounces when the user hovers over it.
 
 ```

@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Party Venues</title>
+    <!--- jQuery link --->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!--- Bootstrap link --->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
@@ -17,7 +19,7 @@
       <div class="navbar">
         <div class="dropdown">
           <button onclick="myFunction()" class="dropbtn">Menu</button>
-          <div id="myDropdown" class="dropdown-content">
+          <div id="myDropdown" class="dropdown-content venue-nav">
             <a href="index.html">Home</a>
             <a class="active" href="partyvenues.html">Party Venues</a>
             <a href="#upcoming-events">Upcoming Events</a>
@@ -32,7 +34,7 @@
           in order to make your life a little easier.</p>
       </header>
       <div class="container">
-      <section>
+      <section class="gym-info">
         <a href="https://www.mygym.com/louisville/?force=1"><h2>My Gym</h2></a>
         <ul>
           <li>Party packages starting at $240 for up to 20 children.</li>
@@ -42,8 +44,9 @@
           by the facility.</li>
           <li>Plus so much more! Visit the <a href="https://www.mygym.com/louisville/birthday-parties/284">website</a> for more information.</li>
         </ul>
-        <div id="map" style="width:50%;height:170px;margin:auto;">My Gym Location</div>
+        <div class="maps" id="map" style="width:50%;height:170px;margin:auto;">My Gym Location</div>
       </section>
+      <!--- This area in progress
       <section>
         <a href="https://www.skyzone.com/louisville"><h2>Skyzone</h2></a>
         <ul>
@@ -54,8 +57,8 @@
           by the facility.</li>
           <li>Plus so much more! Visit the <a href="https://www.skyzone.com/louisville/parties-and-events/parties">website</a> for more information.</li>
         </ul>
-       <!---<div id="skymap" style="width:50%;height:170px;margin:auto;">Skyzone Location</div> ---->
-      </section>
+       <div id="skymap" style="width:50%;height:170px;margin:auto;">Skyzone Location</div>
+     </section> --->
     </div>
       <footer class="footer">
         <a href="http://twitter.com/"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
